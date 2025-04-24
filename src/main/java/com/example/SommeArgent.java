@@ -39,5 +39,9 @@ public class SommeArgent {
       this.devise);
     }
 
+    public SommeArgent multiplier(int facteur) {
+      return new SommeArgent(this.montant * facteur, this.devise);
+    }
+
   
 }
